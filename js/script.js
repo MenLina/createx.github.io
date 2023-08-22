@@ -14,11 +14,3 @@ $(function () {
 Fancybox.bind("[data-fancybox]", {
   // Your custom options
 });
-
-
-
-// $('.team_slider').slick({
-//   lazyLoad: 'ondemand',
-//   slidesToShow: 3,
-//   slidesToScroll: 1
-// });
