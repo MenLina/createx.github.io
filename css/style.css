@@ -631,25 +631,26 @@ position: relative;
 }
 
 .main_team{
-    /* color:white;
-    display: flex;
-    color:white;
-    display: flex; */
 
 }
 
-.team_inner{
+/* .team_inner{
+
+} */
+                     
+.itc-slider-item{
 
 }
-                          
-.team_slider{
-    display: flex;
-    justify-content: space-between;
-}
 
-.team_slide{
+/* .team_slider{
+   
+} */
 
-}
+
+  
+/* .team_slide{
+
+} */
 
 .team_slide:hover .team_social{
     transform: translateY(0%);
@@ -670,18 +671,21 @@ position: relative;
 
 .team_image{
     position: relative;
-    /* height: 340px;
-    width: 285px; */
-    width: 100%;
-    height: 100%;
+    height: 340px;
+    width: 285px;
+  
     object-fit: cover;
     overflow: hidden;
     position: relative;
 }
 
 .team_image img{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .team_social{
@@ -734,3 +738,11 @@ position: relative;
 .team_info-position{
     color: #787A80;
 }
+
+.itc-slider-item {
+    flex: 0 0 calc(25% - var(--gap) * 3 / 4);
+  }
+
+  .itc-slider-wrapper{
+    background-color: transparent;
+  }
